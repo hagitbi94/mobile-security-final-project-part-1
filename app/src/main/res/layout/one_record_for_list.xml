@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_LBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/subTitle_LBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SubTitle"
+            android:textSize="15dp"
+            android:paddingLeft="17dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/time_LBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/location_LBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="15dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hw2">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Card War"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HW2">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnDnoGpK29tWwi1Eu97dzomThBYtuFWA8" />
+
+
+
+        <activity android:name=".activities.WinnerActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+
+        </activity>
+        <activity android:name=".activities.GameActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+
+        </activity>
+        <activity android:name=".activities.RecordActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+
+        </activity>
+        <activity android:name=".activities.MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
