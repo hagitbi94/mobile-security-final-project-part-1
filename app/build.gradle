@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -7,7 +8,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.hw2"
+        applicationId "com.example.myapplication"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -43,6 +44,16 @@ dependencies {
     implementation 'com.github.Amit7474:Dolly-SharedPreferences:1.0.0'
     //Gson is a Java library that can be used to convert Java Objects into their JSON representation.
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation platform('com.google.firebase:firebase-bom:28.3.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database:19.6.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.2'
+    // Recycle view
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc03"
+
+
 }
 
 android {

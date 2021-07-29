@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/game_backro"
     android:padding="20dp"
-    tools:context=".activities.MainActivity">
+    tools:context="com.example.myapplication.example.activities.MainActivity">
 
 
     <TextView
